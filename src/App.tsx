@@ -1,13 +1,14 @@
 // import './App.css'
 
-import { Button } from "./components/ui/button"
+import HomePage from "./pages/home/home"
+
+
 
 function App() {
 
   return (
     <>
-      <h1><a href="#">Home Page</a></h1>
-      <Button className=" bg-black text-white">Home Button</Button>
+      <HomePage />
     </>
   )
 }
